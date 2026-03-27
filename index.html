@@ -1,47 +1,383 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Yucca</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body> 
-        <header>
-            <div class="main-left-head">
-                <div class="logo-cont">
-                    <img class="logo" src="https://yucca.co.za/wp-content/themes/yucca/src/assets/images/logo-icon.svg" alt="">
-                    <div class="logo-title">
-                        <p style="font-weight: 700; font-size: 17px;">Yucca</p>
-                        <p style="font-weight: 400;">Packaging</p>
-                    </div>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Yucca</title>
+    <meta
+      name="description"
+      content="Yucca packaging landing page with industry packaging solutions."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll/bundled/locomotive-scroll.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body id="top">
+    <header class="header">
+      <div class="header-left">
+        <a class="logo-box" href="/">
+          <img
+            class="logo-img"
+            src="https://yucca.co.za/wp-content/themes/yucca/src/assets/images/logo-icon.svg"
+            alt="Yucca logo"
+          />
+          <div class="logo-text">
+            <p class="logo-name">Yucca</p>
+            <p class="logo-sub">Packaging</p>
+          </div>
+        </a>
+
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><div class="list-items"><a href="/">Shop</a></div></li>
+            <li><div class="list-items"><a href="/">Packaging Solutions</a></div></li>
+            <li><div class="list-items"><a href="/">Company</a></div></li>
+            <li><div class="list-items"><a href="/">Resources</a></div></li>
+            <li><div class="list-items"><a href="/">Contact Us</a></div></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header-right">
+        <a class="credit-link" href="/">Credit Application</a>
+
+        <a class="small-icon" id="sh-cart" href="/" aria-label="Shopping cart">
+          <div class="cart-1">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          </div>
+          <div class="cart-2">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          </div>
+        </a>
+
+        <a class="small-icon" href="/" aria-label="Profile">
+          <div class="user-1">
+            <i class="fa fa-user" aria-hidden="true"></i>
+          </div>
+          <div class="user-2">
+            <i class="fa fa-user" aria-hidden="true"></i>
+          </div>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-overlay">
+          <div class="hero-content">
+            <p class="hero-text">
+              Packaging that Performs. Innovated for Industry Leaders.
+            </p>
+
+            <div class="hero-cards">
+              <div class="hero-card">
+                <div class="card-title-box">
+                  <h3 class="card-title">Food Service</h3>
                 </div>
-                <ul>
-                    <li><a href="">Shop</a></li>
-                    <li><a href="">Packaging Solutions</a></li>
-                    <li><a href="">Company</a></li>
-                    <li><a href="">Resources</a></li>
-                    <li><a href="">Contact Us</a></li>
-                </ul>
-            </div>
-            <div class="main-right-head">
-                <ul>
-                    <li><a href="">Credit Application</a></li>
-                    <button class="addtocart" id="right-head-btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-                    <button class="userprofile" id="right-head-btn"><i class="fa fa-user-o" aria-hidden="true"></i></button>
-                </ul>
-            </div>
-        </header>
-        
-        <section class="main-section">
-            <div class="main-hero">
 
-            </div>
-        </section>
+                <div class="card-text-box">
+                  <div class="card-text"><p>Your food service packaging is an extension</p></div>
+                  <div class="card-text"><p>of your brand experience. Have functional</p></div>
+                  <div class="card-text"><p>and on-brand items like cups, tubs, bowls,</p></div>
+                  <div class="card-text"><p>and more readily available for takeout,</p></div>
+                  <div class="card-text"><p>catering, and deli food. Choose standard</p></div>
+                  <div class="card-text"><p>containers, customised or designed from</p></div>
+                  <div class="card-text"><p>scratch.</p></div>
+                  <div class="card-line"></div>
+                  <div class="card-more">
+                    <span>Tell me more</span>
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
 
-        <script src="" async defer></script>
-    </body>
+              <div class="hero-card">
+                <div class="card-title-box">
+                  <h3 class="card-title">Retail Packaging</h3>
+                </div>
+
+                <div class="card-text-box">
+                  <div class="card-text"><p>Create packaging that strengthens shelf appeal</p></div>
+                  <div class="card-text"><p>while protecting products through shipping,</p></div>
+                  <div class="card-text"><p>storage, and in-store handling. Balance</p></div>
+                  <div class="card-text"><p>branding, structural performance, and</p></div>
+                  <div class="card-text"><p>practicality with solutions designed around</p></div>
+                  <div class="card-text"><p>your product and customer expectations.</p></div>
+                  <div class="card-line" id="cl-2"></div>
+                  <div class="card-more" id="cm-2">
+                    <span>Tell me more</span>
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="hero-card">
+                <div class="card-title-box">
+                  <h3 class="card-title">Food Processing</h3>
+                </div>
+
+                <div class="card-text-box">
+                  <div class="card-text"><p>Support production and distribution with</p></div>
+                  <div class="card-text"><p>packaging that meets compliance, maintains</p></div>
+                  <div class="card-text"><p>quality, and performs in demanding cold-chain</p></div>
+                  <div class="card-text"><p>and transport environments. Build reliable</p></div>
+                  <div class="card-text"><p>systems for meat, produce, and prepared foods</p></div>
+                  <div class="card-text"><p>at scale.</p></div>
+                  <div class="card-line"></div>
+                  <div class="card-more">
+                    <span>Tell me more</span>
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slider-section" data-scroll data-scroll-speed="0.2">
+        <div class="slider-row slider-right">
+          <span>Yucca Rewards Yucca Direct (B2B) Quality Branding</span>
+          <span>Yucca Rewards Yucca Direct (B2B) Quality Branding</span>
+          <span>Yucca Rewards Yucca Direct (B2B) Quality Branding</span>
+          <span>Yucca Rewards Yucca Direct (B2B) Quality Branding</span>
+        </div>
+
+        <div class="slider-row slider-left">
+          <span>Custom Packaging Sustainable Innovation Partnerships</span>
+          <span>Custom Packaging Sustainable Innovation Partnerships</span>
+          <span>Custom Packaging Sustainable Innovation Partnerships</span>
+          <span>Custom Packaging Sustainable Innovation Partnerships</span>
+        </div>
+
+        <div class="slider-bottom">
+          <p>
+            Set the standard for packaging excellence in your industry. Let us
+            help you make your products memorable.
+          </p>
+          <button class="main-btn" type="button">See Products</button>
+        </div>
+      </section>
+
+      <section class="image-section">
+        <div class="image-bg">
+          <img
+          src="https://yucca.co.za/wp-content/uploads/2025/09/yucca-packaging-for-food-service-takeout-catering-deli-smoothies-coffee-desserts.jpg"
+          alt="Agriculture packaging with fruits"
+          class="bg-img img-1"
+          />
+          <img
+          src="https://yucca.co.za/wp-content/uploads/2025/09/yucca-packaging-meat-poultry-seafood-mince-steak-chicken-and-more.jpg"
+          alt="Food service packaging"
+          class="bg-img img-2"
+          />
+          <img
+            src="https://yucca.co.za/wp-content/uploads/2025/11/yucca-packaging-agriculture-strawberry-blueberry-gooseberry-grapes-kiwi-avo.jpg"
+            alt="Meat packaging"
+            class="bg-img img-3"
+          />
+        </div>
+
+        <div class="image-cards">
+            <div class="image-card box-1">
+              <div class="image-title-box">
+                <h3 class="image-title box-1">Food Service</h3>
+              </div>
+              <div class="image-text-box">
+                <div class="image-title-p">
+                <p>Food Service</p>
+              </div>
+              <div class="image-text">
+                <p>Deliver meals that look good, travel well and</p>
+              </div>
+              <div class="image-text">
+                <p>impress customers with attention to detail. We</p>
+              </div>
+              <div class="image-text">
+                <p>can help you customise packaging so it</p>
+              </div>
+              <div class="image-text">
+                <p>matches the quality of your food and reflects</p>
+              </div>
+                <div class="image-text">
+                  <p>the image you want to exude.</p>
+                </div>
+                <div class="image-line"></div>
+                <div class="image-more">
+                  <span>Tell me more</span>
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+
+          <div class="image-card box-2">
+            <div class="image-title-box">
+              <h3 class="image-title box-2">Food Processing</h3>
+            </div>
+            <div class="image-text-box">
+              <div class="image-title-p">
+                <p>Food Processing</p>
+              </div>
+              <div class="image-text">
+                <p>Work with Yucca to take the complexity out of</p>
+              </div>
+              <div class="image-text">
+                <p>food processing. We can help local and</p>
+              </div>
+              <div class="image-text">
+                <p>international businesses streamline production</p>
+              </div>
+                <div class="image-text">
+                  <p>and maintain product quality.</p>
+                </div>
+                <div class="image-line"></div>
+                <div class="image-more">
+                  <span>Tell me more</span>
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          
+          <div class="image-card box-3">
+            <div class="image-title-box">
+              <h3 class="image-title box-3">Agriculture</h3>
+            </div>
+            <div class="image-text-box">
+              <div class="image-title-p">
+                <p>Agriculture</p>
+              </div>
+              <div class="image-text">
+                <p>Partner with a team that understands the pace</p>
+              </div>
+              <div class="image-text">
+                <p>and pressure of agriculture. Whether it's</p>
+              </div>
+              <div class="image-text">
+                <p>delivering fresh produce worldwide or reducing</p>
+              </div>
+              <div class="image-text">
+                <p>losses with packaging that protects your</p>
+              </div>
+                <div class="image-text">
+                  <p>harvest and is also retail-ready, we can help.</p>
+                </div>
+                <div class="image-line"></div>
+                <div class="image-more">
+                  <span>Tell me more</span>
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="about-section">
+        <div class="about-top">
+          <div class="about-left">
+            <h2>Committed to Excellence,</h2>
+            <h2>always Innovating</h2>
+          </div>
+
+          <div class="about-right">
+            <p>
+              Remarkable packaging is our promise to you. What does not meet
+              Yucca standards is refined until it does.
+            </p>
+            <button class="main-btn" type="button">About us</button>
+          </div>
+        </div>
+
+        <div class="about-row">
+          <div class="about-title">
+            <p>Our Mission</p>
+          </div>
+          <div class="about-info">
+            <p>
+              We provide world-class, compliant packaging from trusted global
+              partners to food service, food processing, and agricultural
+              businesses across the globe.
+            </p>
+          </div>
+        </div>
+
+        <div class="about-row last-row">
+          <div class="about-title">
+            <p>Our Vision</p>
+          </div>
+          <div class="about-info">
+            <p>
+              We create packaging systems that elevate brands, improve product
+              handling, and set a consistent standard for performance in every
+              market we serve.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-top">
+          <h2>Innovated for Industry Leaders.</h2>
+          <a class="top-btn" href="#top" aria-label="Back to top">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+          </a>
+        </div>
+
+        <div class="footer-middle">
+          <div class="footer-logo">
+            <img
+              src="https://yucca.co.za/wp-content/themes/yucca/src/assets/images/logo-icon.svg"
+              alt="Yucca logo"
+            />
+          </div>
+
+          <div class="footer-cards">
+            <a class="footer-box footer-box-1" href="/">Food Service</a>
+            <a class="footer-box footer-box-2" href="/">Food Processing</a>
+            <a class="footer-box footer-box-3" href="/">Agriculture</a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-bottom-left">
+            <div class="copy-text">
+              <span class="copy-icon">
+                <i class="fa fa-copyright" aria-hidden="true"></i>
+              </span>
+              <span>Yucca 2026. All Rights Reserved</span>
+            </div>
+
+            <div class="social-links">
+              <a href="/" aria-label="Facebook">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+              </a>
+              <a href="/" aria-label="Instagram">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+              <a href="/" aria-label="LinkedIn">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-bottom-right">
+            <a href="/">Contact Us</a>
+            <a href="/">Privacy Policy</a>
+            <a href="/">Terms &amp; Conditions</a>
+          </div>
+        </div>
+
+        <a class="whatsapp-btn" href="/" aria-label="Chat on WhatsApp">
+          <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        </a>
+      </footer>
+    </main>
+
+    <script>
+      const locomotiveScroll = new LocomotiveScroll();
+    </script>
+  </body>
 </html>
